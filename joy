@@ -1,0 +1,10 @@
+$ mkdir  resume && cd resume    
+$ git init    
+$ git config  --global  user.name "李妍彦"   
+$ git config --global user.email "joyliyanyan"  
+
+
+$ wget http://labfile.oss.aliyuncs.com/courses/624/cv-template.zip   
+$ unzip cv-template
+$ mv cv-template/* .
+$ rm -rf cv-template* __MACOSX*
